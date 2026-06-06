@@ -13,7 +13,7 @@ export const personalInfo = {
   email: "mail.lakshitjain@gmail.com",
   phone: "+91 9538350253",
   location: "Bengaluru, India",
-  linkedin: "https://www.linkedin.com/in/lakshit-jain",
+  linkedin: "https://www.linkedin.com/in/lakshit-jain1852004/",
   tagline: "Building products with empathy, data, and velocity.",
 } as const;
 
