@@ -18,22 +18,22 @@ export const personalInfo = {
 } as const;
 
 export const heroIntro =
-  "Results-driven aspiring Product Manager with hands-on AI/ML engineering experience and certified PM training across product discovery, user research, agile execution, roadmapping, and data-driven decision-making. I've worked across 12M+ user products, built revenue models targeting ₹78 Cr ARR, and scored 30/30 on every evaluated PM project in my cohort. I bridge the gap between technical depth and product strategy — turning fuzzy user problems into crisp, shippable solutions. Currently seeking APM, Product Intern, or Product Analyst roles at high-growth startups and global tech companies. Let's build something meaningful together.";
+  "Aspiring Product Manager with hands-on AI/ML engineering experience and structured PM training across product discovery, user research, prioritization, roadmapping, and GTM strategy. I've worked on product strategy for a 12M+ user platform, built a monetization model targeting ₹78 Cr ARR, and shipped a production AI surveillance system end-to-end. I bridge technical depth and product thinking — turning fuzzy user problems into structured, shippable solutions. Currently seeking APM, Product Intern, or Product Analyst roles at high-growth startups and tech companies.";
 
 export const heroKPIs = [
   { value: 12, suffix: "M+", label: "User Products" },
   { value: 78, prefix: "₹", suffix: " Cr", label: "ARR Modeled" },
-  { value: 30, suffix: "/30", label: "PM Score" },
+  { value: 6, suffix: "+", label: "Case Studies" },
   { value: 9, suffix: "+", label: "Projects Shipped" },
 ] as const;
 
 export const aboutMe = {
   paragraph:
-    "I'm a Computer Science graduate from RNS Institute of Technology, Bengaluru, with a rare combination of hands-on AI/ML engineering and rigorous PM training. Through the Airtribe AI PM Launchpad — where I scored 30/30 across all 6 evaluated projects — I've developed depth in product discovery, AARRR funnel analysis, OKR frameworks, and go-to-market strategy. My capstone project on TM Café for TrulyMadly involved end-to-end product work across a 12M+ user base, resulting in a monetization model targeting ₹78 Cr annual revenue. I'm proficient in Figma, Notion, Jira, SQL, Python, and system design — enough to speak engineering fluently. I thrive at the intersection of data, empathy, and execution.",
+    "I'm a BCA graduate from RNS Institute of Technology, Bengaluru, with a dual background in AI/ML engineering and structured PM training. Through the Airtribe AI PM Launchpad, I've built depth in product discovery, AARRR funnel analysis, RICE prioritization, and go-to-market strategy across multiple case studies. My capstone project on TM Café for TrulyMadly involved end-to-end product work across a 12M+ user base, resulting in a monetization model targeting ₹78 Cr annual revenue. I'm comfortable with Figma, Notion, Jira, SQL, and Python — enough to work closely with engineering teams. I enjoy working at the intersection of data, user empathy, and execution.",
   mission:
-    "Ship products that create genuine emotional and practical value for users — built on deep empathy and rigorous data.",
+    "Ship products that create genuine value for users — built on empathy and grounded in data.",
   vision:
-    "Build frameworks and products at high-growth companies that redefine how people connect, decide, and grow.",
+    "Grow into a product role at a high-growth company where I can keep learning from real users and real outcomes.",
 } as const;
 
 export interface Experience {
@@ -55,15 +55,15 @@ export const experiences: Experience[] = [
     location: "Bengaluru, India",
     duration: "Nov 2025 – Feb 2026",
     responsibilities: [
-      "Supported enterprise applications through incident tracking, ticket resolution, and user support workflows.",
-      "Collaborated with internal teams to investigate issues, document findings, and ensure timely resolution within SLA guidelines.",
-      "Worked with structured support processes, stakeholder communication, and operational troubleshooting across business systems.",
-      "Assisted in root cause analysis efforts and contributed to improving issue-handling efficiency.",
+      "Identified patterns across 50+ enterprise client escalations and surfaced systemic product gaps in access management workflows.",
+      "Documented recurring issues as structured improvement proposals for product and engineering teams.",
+      "Built an issue tracking taxonomy to categorize user pain points by frequency and severity, informing escalation prioritization.",
+      "Collaborated cross-functionally with support and product teams within enterprise SLA workflows.",
     ],
     keyTakeaways: [
-      "Developed strong problem-solving and analytical thinking skills in a process-driven environment.",
-      "Gained hands-on exposure to stakeholder management, issue prioritization, and cross-functional collaboration.",
-      "Strengthened communication skills by translating technical issues into actionable updates for business users and support teams.",
+      "Developed instincts for translating user-reported friction into actionable product opportunities.",
+      "Gained exposure to stakeholder communication and cross-functional prioritization in an enterprise setting.",
+      "Practiced breaking down technical issues into clear, structured updates for both technical and business audiences.",
     ],
   },
   {
@@ -73,14 +73,14 @@ export const experiences: Experience[] = [
     location: "Bengaluru, India",
     duration: "Jan 2025 – Mar 2025",
     responsibilities: [
-      "Scoped, built, and shipped Vigilant Eye 2.0 — an AI-powered real-time surveillance system using YOLOv8, Python, Tkinter, and MySQL.",
-      "Defined product requirements and feature scope for an Inventory Management System covering product management, inventory tracking, and user authentication.",
-      "Integrated AI/ML models into desktop applications and implemented REST-style database connectivity.",
-      "Applied agile debugging cycles and collaborated on UI iteration to ship production-ready features.",
+      "Owned end-to-end product lifecycle for Vigilant Eye 2.0 — defined requirements, led YOLOv8-based AI development, and shipped a production-ready surveillance system to client sites.",
+      "Authored a PRD for an Inventory Management System covering product tracking, inventory management, and user authentication.",
+      "Integrated AI/ML models into a desktop application and implemented database connectivity using MySQL.",
+      "Conducted usability testing across multiple iteration cycles, collaborating with engineering on feature scoping.",
     ],
     achievements: [
-      "Delivered face & animal detection, live camera monitoring, automated alerts, and event logging in a single cohesive product release.",
-      "Improved usability through iterative UI testing, reducing user error rate during internal QA cycles.",
+      "Delivered face & animal detection, live camera monitoring, automated alerts, and event logging in a single shipped release.",
+      "Reduced critical UI friction points through iterative testing before client delivery.",
     ],
   },
 ];
@@ -96,15 +96,15 @@ export interface Education {
 
 export const education: Education[] = [
   {
-    qualification: "Computer Science Graduate",
+    qualification: "BCA Graduate",
     degree: "Bachelor of Computer Applications (BCA)",
     institution: "RNS Institute of Technology, Bengaluru",
     duration: "2022 – 2025",
     mode: "Full-time",
     highlights: [
-      "CGPA: 7.64/10 | Coursework: Databases, Software Engineering, Data Structures, AI Fundamentals",
-      "Built strong foundations in system design, REST APIs, and microservices for cross-functional PM-engineering collaboration",
-      "Shipped multiple applied AI projects including an AI-powered surveillance system during internship",
+      "CGPA: 7.64/10 | Coursework: Data Structures, DBMS, Software Engineering, Python, AI/ML Fundamentals, Computer Networks, OOP, Web Development",
+      "Built foundations in system design and REST APIs that support cross-functional PM-engineering collaboration",
+      "Shipped an applied AI project (Vigilant Eye 2.0) during internship alongside coursework",
     ],
   },
   {
@@ -113,9 +113,9 @@ export const education: Education[] = [
     duration: "2026",
     mode: "Remote",
     highlights: [
-      "Scored 30/30 on all evaluated projects — top-ranked in cohort of 50+ aspiring PMs",
+      "Completed an intensive AI Product Management program covering product discovery, user research, and strategy",
       "Covered user research, AARRR analysis, RICE prioritization, OKRs, PRD writing, and GTM strategy",
-      "Completed Tech 101 & System Design module with working knowledge of REST APIs, databases, and scalable architecture",
+      "Completed a Tech 101 & System Design module covering REST APIs, databases, and scalable architecture basics",
     ],
   },
 ];
@@ -148,11 +148,11 @@ export const projects: Project[] = [
     type: "End-to-End PM Case Study",
     duration: "2026",
     description:
-      "Led end-to-end product discovery and strategy for TM Café, an emotional support marketplace within TrulyMadly's 12M+ user base. Conducted user interviews, Play Store review analysis, app testing, and competitor benchmarking to identify trust, discovery, and conversion barriers.",
+      "Led end-to-end product discovery and strategy for TM Café, an emotional support feature within TrulyMadly's 12M+ user base. Conducted user interviews, Play Store review analysis, firsthand app testing, and competitor benchmarking to identify trust, discovery, and conversion barriers.",
     outcomes: [
-      "Applied RICE prioritization to rank solutions and defined a scalable monetization strategy targeting 15% paying MAU",
-      'Modeled ₹78 Cr annual revenue with a defined path to ₹100 Cr scale via freemium trial and AI concierge routing',
-      'Built interactive prototype with moment-based emotional triggers, gamification loops, and "2 minutes free" trust-first conversion model',
+      "Applied RICE prioritization across 15 solution ideas and selected 2 high-impact features targeting 15% paying MAU",
+      "Modeled ₹78 Cr annual revenue potential with a defined path to ₹100 Cr scale via freemium trial and AI concierge routing",
+      'Built a 7-screen interactive prototype with moment-based emotional triggers, gamification loops, and a "2 minutes free" trust-first conversion model',
       "Defined North Star Metric, GTM strategy, and KPIs including D14 retention, wallet recharge frequency, and expert quality scores",
     ],
     technologies: [
@@ -188,11 +188,11 @@ export const projects: Project[] = [
     ],
   },
   {
-    title: "PM Fellowship — 6 Product Case Studies",
+    title: "PM Fellowship — Product Case Studies",
     type: "Evaluated PM Projects",
     duration: "2026",
     description:
-      "Completed rigorous product case studies across quick commerce, social media, e-commerce, food delivery, and health-tech. Every project was evaluated and scored, achieving top rank in cohort of 50+.",
+      "Completed multiple product case studies across quick commerce, social media, e-commerce, food delivery, and health-tech as part of the Airtribe PM Fellowship.",
     outcomes: [],
     technologies: [
       "RICE Framework",
@@ -206,7 +206,7 @@ export const projects: Project[] = [
       {
         title: "Plan-A-Plate (MealNest)",
         description:
-          'Solved high cognitive friction and low adherence among urban professionals by mapping core user journeys and designing a personalized 5-step onboarding wizard. Engineered a "Pantry Match" tool that leverages existing ingredients to reduce food waste and instantly generate automated shopping lists.',
+          'Addressed high cognitive friction and low adherence among urban professionals by mapping core user journeys and designing a personalized onboarding flow. Designed a "Pantry Match" feature concept that uses existing ingredients to reduce food waste and auto-generate shopping lists.',
         link: "https://plan-a-plate-16.lovable.app/",
         image: "/images/mealnest.png",
         pdfLink: "/pdfs/meal-planning.pdf",
@@ -214,7 +214,7 @@ export const projects: Project[] = [
       {
         title: "Zomato — Transparency Architecture",
         description:
-          'Addressed order batching complaints and misleading ETAs by shifting from rigid timelines to a dynamic "Queue Position & Delay Explanation" engine. This transparency architecture successfully managed user expectations and recovered trust without breaking non-negotiable back-end operational efficiency constraints.',
+          'Addressed order batching complaints and misleading ETAs by designing a dynamic "Queue Position & Delay Explanation" engine — shifting from rigid timelines to honest, real-time context, aimed at rebuilding user trust without disrupting backend operations.',
         link: "https://zomatocasestudy.lovable.app",
         image: "/images/zomato.jpeg",
         pdfLink: "/pdfs/zomato-case-study.pdf",
@@ -222,20 +222,20 @@ export const projects: Project[] = [
       {
         title: "Meesho — Scaling ARPU",
         description:
-          'Synthesized survey data to discover that 83.3% of users faced product quality mismatches, driving a massive 61.5% churn rate due to early trust deficits. Applied the RICE framework (scoring 81) to engineer a high-signal "Verified Quality" badge and an authentic user-generated media ecosystem designed to accelerate repeat purchase loops.',
+          "Used survey data to identify product quality mismatches as a key driver of early churn. Applied the RICE framework to prioritize a 'Verified Quality' badge and a user-generated media concept aimed at improving repeat purchase behavior.",
         image: "/images/meesho.png",
         pdfLink: "/pdfs/meesho-case-study.pdf",
       },
       {
         title: "Uber Reserve — Bridging the Trust Gap",
         description:
-          'Applied First-Principles thinking and the JTBD (Jobs-To-Be-Done) framework to analyze low adoption among Tier-1 urban professionals. Designed a "Flight-Sync & Airtight Guarantee" operational contract that transformed the feature from a basic calendar utility into a high-reliability assurance engine.',
+          'Applied the JTBD (Jobs-To-Be-Done) framework to analyze low adoption among Tier-1 urban professionals. Designed a "Flight-Sync & Reliability Guarantee" concept aimed at turning the feature from a calendar utility into a higher-trust assurance experience.',
         image: "/images/uberreserve.jpeg",
       },
       {
-        title: "VitaFit — Gamification & Social Accountability",
+        title: "VitaFit — Vita Engage Plus",
         description:
-          'Authored a comprehensive Product Requirements Document (PRD) to directly reverse declining Weekly Active Users (WAU) and 30-day retention curves. Devised the "Vita Engage +" ecosystem, integrating point-based gamification loops (XP, streaks, badges) and community squad challenges for long-term social accountability.',
+          "Authored a Product Requirements Document (PRD) aimed at improving Weekly Active Users (WAU) and 30-day retention. Designed 'Vita Engage Plus' — a point-based gamification concept (XP, streaks, badges) with community challenges for long-term engagement.",
         link: "https://vitafit.lovable.app",
         image: "/images/vitafit.png",
         pdfLink: "/pdfs/vitafit-case-study.pdf",
@@ -243,7 +243,7 @@ export const projects: Project[] = [
       {
         title: "Twitter/X — AARRR Funnel Growth",
         description:
-          'Mapped the end-to-end user acquisition funnel to identify core retention bottlenecks, particularly surrounding unwanted sensitive media exposure. Proposed and prioritized an "Advanced Content Control System" and a personalized onboarding flow to drive deeper D30 platform engagement.',
+          "Mapped the end-to-end user acquisition funnel to identify activation and retention drop-off points, particularly around unwanted sensitive media exposure. Proposed an advanced content control concept and a personalized onboarding flow to improve engagement.",
         image: "/images/twitter.png",
         pdfLink: "/pdfs/twitter-aarrr.pdf",
       },
@@ -254,11 +254,11 @@ export const projects: Project[] = [
     type: "Production Engineering Project",
     duration: "2025",
     description:
-      "Scoped, built, and shipped a full AI-powered real-time surveillance system from requirements to production, acting as both engineer and de facto PM.",
+      "Scoped, built, and shipped an AI-powered real-time surveillance system from requirements to production, working across both engineering and product decisions.",
     outcomes: [
-      "Delivered face & animal detection, live camera monitoring, automated alerts, and event logging in a single release",
+      "Delivered face & animal detection, live camera monitoring, automated alerts, and event logging in a single shipped release",
       "Defined product requirements and iterated on UI through multiple testing cycles to improve usability",
-      "Implemented REST-style database connectivity with MySQL for reliable event storage and retrieval",
+      "Implemented database connectivity with MySQL for reliable event storage and retrieval",
     ],
     technologies: [
       "Python",
@@ -280,55 +280,55 @@ export const skillCategories: SkillCategory[] = [
   {
     name: "Core PM Skills",
     skills: [
-      { name: "Product Strategy & Discovery", level: 92 },
-      { name: "User Research & Interviews", level: 88 },
-      { name: "RICE Prioritization", level: 90 },
-      { name: "PRD Writing & Roadmapping", level: 85 },
+      { name: "Product Strategy & Discovery", level: 85 },
+      { name: "User Research & Interviews", level: 82 },
+      { name: "RICE Prioritization", level: 85 },
+      { name: "PRD Writing & Roadmapping", level: 80 },
     ],
   },
   {
     name: "Analytics & Growth",
     skills: [
-      { name: "AARRR Funnel Analysis", level: 90 },
-      { name: "OKRs & KPI Definition", level: 88 },
-      { name: "A/B Testing", level: 80 },
-      { name: "Monetization Modeling", level: 85 },
+      { name: "AARRR Funnel Analysis", level: 82 },
+      { name: "OKRs & KPI Definition", level: 80 },
+      { name: "A/B Testing", level: 70 },
+      { name: "Monetization Modeling", level: 78 },
     ],
   },
   {
     name: "PM Tools",
     skills: [
-      { name: "Figma & Wireframing", level: 82 },
-      { name: "Notion & Confluence", level: 88 },
-      { name: "Jira & Agile/Scrum", level: 80 },
-      { name: "Miro & Whiteboarding", level: 78 },
+      { name: "Figma & Wireframing", level: 75 },
+      { name: "Notion & Confluence", level: 80 },
+      { name: "Jira & Agile/Scrum", level: 72 },
+      { name: "Miro & Whiteboarding", level: 72 },
     ],
   },
   {
     name: "Technical Skills",
     skills: [
-      { name: "Python & AI/ML", level: 85 },
-      { name: "System Design & REST APIs", level: 78 },
-      { name: "SQL & Databases", level: 75 },
-      { name: "LLMs & RAG Architecture", level: 72 },
+      { name: "Python & AI/ML", level: 80 },
+      { name: "System Design & REST APIs", level: 70 },
+      { name: "SQL & Databases", level: 68 },
+      { name: "LLM Integration", level: 65 },
     ],
   },
   {
     name: "GTM & Strategy",
     skills: [
-      { name: "GTM Planning", level: 85 },
-      { name: "Competitive Analysis", level: 88 },
-      { name: "Stakeholder Management", level: 80 },
-      { name: "User Journey Mapping", level: 87 },
+      { name: "GTM Planning", level: 78 },
+      { name: "Competitive Analysis", level: 82 },
+      { name: "Stakeholder Management", level: 75 },
+      { name: "User Journey Mapping", level: 80 },
     ],
   },
   {
     name: "Soft Skills",
     skills: [
-      { name: "Cross-functional Collaboration", level: 90 },
-      { name: "Data-driven Decision Making", level: 88 },
-      { name: "Written & Verbal Communication", level: 85 },
-      { name: "Problem Framing", level: 87 },
+      { name: "Cross-functional Collaboration", level: 82 },
+      { name: "Data-driven Decision Making", level: 80 },
+      { name: "Written & Verbal Communication", level: 80 },
+      { name: "Problem Framing", level: 80 },
     ],
   },
 ];
@@ -386,10 +386,10 @@ export const achievements: Achievement[] = [
   {
     category: "Professional",
     year: "2026",
-    title: "Top-Ranked PM Fellow",
+    title: "Airtribe PM Fellow",
     institution: "Airtribe AI PM Launchpad",
     description:
-      "Scored 30/30 across all evaluated projects in a cohort of 50+ — the only candidate to achieve this across every submission.",
+      "Completed an intensive AI Product Management program — building end-to-end product case studies across consumer tech, food delivery, and health-tech domains.",
   },
   {
     category: "Professional",
@@ -397,15 +397,15 @@ export const achievements: Achievement[] = [
     title: "TM Café Capstone — ₹78 Cr Revenue Model",
     institution: "TrulyMadly Product Strategy",
     description:
-      "Delivered full end-to-end product strategy including user research, monetization modeling, AI automation design, interactive prototype, and GTM plan.",
+      "Delivered a full end-to-end product strategy including user research, monetization modeling, AI automation design, an interactive prototype, and a GTM plan.",
   },
   {
     category: "Academic",
     year: "2025",
-    title: "Computer Science Graduate",
+    title: "BCA Graduate",
     institution: "RNS Institute of Technology",
     description:
-      "Completed degree with CGPA 7.64/10 building technical foundations directly applicable to PM-engineering collaboration.",
+      "Completed degree with CGPA 7.64/10, building technical foundations directly applicable to PM-engineering collaboration.",
   },
   {
     category: "Professional",
@@ -413,20 +413,20 @@ export const achievements: Achievement[] = [
     title: "Vigilant Eye 2.0 — Production AI System",
     institution: "Loginware Softtec",
     description:
-      "Independently scoped, built, and shipped a production-ready AI surveillance system combining PM thinking with engineering execution.",
+      "Scoped, built, and shipped a production-ready AI surveillance system, combining product thinking with engineering execution.",
   },
   {
     category: "Leadership",
     title: "Rajyapuraskar Scout Award",
     institution: "Governor of Karnataka",
     description:
-      "State-level recognition for leadership, teamwork, discipline, and community service.",
+      "Highest honour in Bharat Scouts & Guides, presented by the Governor of Karnataka, recognizing leadership, discipline, and community service.",
   },
   {
     category: "Leadership",
     title: "National Service Scheme (NSS)",
     description:
-      "Active participation in community service and social impact initiatives.",
+      "Led community education and sanitation drives during a 7-day rural outreach camp in Kanakapura, Karnataka.",
   },
 ];
 
