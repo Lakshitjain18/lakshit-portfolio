@@ -17,9 +17,8 @@ export default function SkillBar({
 }: SkillBarProps) {
   return (
     <div className="mb-4 last:mb-0">
-      <div className="flex justify-between items-center mb-2">
+      <div className="mb-2">
         <span className="text-sm text-[#B8B8B8] font-medium">{name}</span>
-        <span className="text-sm text-[#7A7A7A] tabular-nums">{level}%</span>
       </div>
       <div className="h-2 rounded-full bg-white/[0.05] overflow-hidden">
         <motion.div

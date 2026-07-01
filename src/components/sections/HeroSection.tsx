@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ChevronDown, Mail, ExternalLink } from "lucide-react";
+import { ChevronDown, Mail, ExternalLink, FileDown } from "lucide-react";
 import Image from "next/image";
 
 function LinkedinIcon({ className }: { className?: string }) {
@@ -111,6 +111,14 @@ export default function HeroSection() {
               >
                 <LinkedinIcon className="w-4 h-4" />
                 Connect
+              </MagneticButton>
+              <MagneticButton
+                href={personalInfo.resumeUrl}
+                target="_blank"
+                className="px-6 py-3 border border-white/[0.12] bg-white/[0.03] backdrop-blur-sm text-white hover:bg-white/[0.08] text-sm"
+              >
+                <FileDown className="w-4 h-4" />
+                Resume
               </MagneticButton>
             </motion.div>
           </div>

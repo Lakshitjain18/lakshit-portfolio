@@ -14,22 +14,23 @@ export const personalInfo = {
   phone: "+91 9538350253",
   location: "Bengaluru, India",
   linkedin: "https://www.linkedin.com/in/lakshit-jain",
+  resumeUrl: "/Lakshit_Jain_Resume.pdf",
   tagline: "Building products with empathy, data, and velocity.",
 } as const;
 
 export const heroIntro =
-  "Results-driven aspiring Product Manager with hands-on AI/ML engineering experience and certified PM training across product discovery, user research, agile execution, roadmapping, and data-driven decision-making. I've worked across 12M+ user products, built revenue models targeting ₹78 Cr ARR, and scored 30/30 on every evaluated PM project in my cohort. I bridge the gap between technical depth and product strategy — turning fuzzy user problems into crisp, shippable solutions. Currently seeking APM, Product Intern, or Product Analyst roles at high-growth startups and global tech companies. Let's build something meaningful together.";
+  "Results-driven aspiring Product Manager with hands-on AI/ML engineering experience and certified PM training across product discovery, user research, agile execution, roadmapping, and data-driven decision-making. I've worked across 12M+ user products, built revenue models targeting ₹78 Cr ARR, and completed the Airtribe AI PM Fellowship — building 6+ in-depth case studies spanning quick commerce, social media, e-commerce, food delivery, and health-tech. I bridge the gap between technical depth and product strategy — turning fuzzy user problems into crisp, shippable solutions. Currently seeking APM, Product Intern, or Product Analyst roles at high-growth startups and global tech companies. Let's build something meaningful together.";
 
 export const heroKPIs = [
   { value: 12, suffix: "M+", label: "User Products" },
   { value: 78, prefix: "₹", suffix: " Cr", label: "ARR Modeled" },
-  { value: 30, suffix: "/30", label: "PM Score" },
+  { value: 6, suffix: "+", label: "Case Studies" },
   { value: 9, suffix: "+", label: "Projects Shipped" },
 ] as const;
 
 export const aboutMe = {
   paragraph:
-    "I'm a Computer Science graduate from RNS Institute of Technology, Bengaluru, with a rare combination of hands-on AI/ML engineering and rigorous PM training. Through the Airtribe AI PM Launchpad — where I scored 30/30 across all 6 evaluated projects — I've developed depth in product discovery, AARRR funnel analysis, OKR frameworks, and go-to-market strategy. My capstone project on TM Café for TrulyMadly involved end-to-end product work across a 12M+ user base, resulting in a monetization model targeting ₹78 Cr annual revenue. I'm proficient in Figma, Notion, Jira, SQL, Python, and system design — enough to speak engineering fluently. I thrive at the intersection of data, empathy, and execution.",
+    "I'm a BCA graduate from RNS Institute of Technology, Bengaluru, with a rare combination of hands-on AI/ML engineering and rigorous PM training. Through the Airtribe AI PM Launchpad, I completed multiple in-depth case studies and developed depth in product discovery, AARRR funnel analysis, OKR frameworks, and go-to-market strategy. My capstone project on TM Café for TrulyMadly involved end-to-end product work across a 12M+ user base, resulting in a monetization model targeting ₹78 Cr annual revenue. I'm proficient in Figma, Notion, Jira, SQL, Python, and system design — enough to speak engineering fluently. I thrive at the intersection of data, empathy, and execution.",
   mission:
     "Ship products that create genuine emotional and practical value for users — built on deep empathy and rigorous data.",
   vision:
@@ -55,15 +56,15 @@ export const experiences: Experience[] = [
     location: "Bengaluru, India",
     duration: "Nov 2025 – Feb 2026",
     responsibilities: [
-      "Supported enterprise applications through incident tracking, ticket resolution, and user support workflows.",
-      "Collaborated with internal teams to investigate issues, document findings, and ensure timely resolution within SLA guidelines.",
-      "Worked with structured support processes, stakeholder communication, and operational troubleshooting across business systems.",
-      "Assisted in root cause analysis efforts and contributed to improving issue-handling efficiency.",
+      "Analyzed patterns across recurring client escalations to identify systemic product and workflow gaps, surfacing insights that informed engineering priorities.",
+      "Created structured documentation of root causes and resolution paths, enabling engineering teams to address upstream issues and reduce repeat incidents.",
+      "Collaborated cross-functionally with product and engineering stakeholders to translate ambiguous user-reported issues into clearly scoped problem statements.",
+      "Drove process improvements by mapping end-to-end issue resolution workflows and identifying bottlenecks that impacted user experience and SLA adherence.",
     ],
     keyTakeaways: [
-      "Developed strong problem-solving and analytical thinking skills in a process-driven environment.",
-      "Gained hands-on exposure to stakeholder management, issue prioritization, and cross-functional collaboration.",
-      "Strengthened communication skills by translating technical issues into actionable updates for business users and support teams.",
+      "Developed a product-oriented lens for diagnosing user pain points — learning to look beyond surface symptoms to find systemic root causes.",
+      "Built strong cross-functional communication skills, bridging the gap between business stakeholders and engineering teams through structured problem framing.",
+      "Gained hands-on experience in prioritization, stakeholder alignment, and driving measurable process outcomes in a fast-paced enterprise environment.",
     ],
   },
   {
@@ -96,7 +97,7 @@ export interface Education {
 
 export const education: Education[] = [
   {
-    qualification: "Computer Science Graduate",
+    qualification: "BCA Graduate",
     degree: "Bachelor of Computer Applications (BCA)",
     institution: "RNS Institute of Technology, Bengaluru",
     duration: "2022 – 2025",
@@ -113,7 +114,7 @@ export const education: Education[] = [
     duration: "2026",
     mode: "Remote",
     highlights: [
-      "Scored 30/30 on all evaluated projects — top-ranked in cohort of 50+ aspiring PMs",
+      "Intensive fellowship covering end-to-end product management across discovery, strategy, execution, and growth",
       "Covered user research, AARRR analysis, RICE prioritization, OKRs, PRD writing, and GTM strategy",
       "Completed Tech 101 & System Design module with working knowledge of REST APIs, databases, and scalable architecture",
     ],
@@ -389,7 +390,7 @@ export const achievements: Achievement[] = [
     title: "Top-Ranked PM Fellow",
     institution: "Airtribe AI PM Launchpad",
     description:
-      "Scored 30/30 across all evaluated projects in a cohort of 50+ — the only candidate to achieve this across every submission.",
+      "Completed 6+ evaluated case studies spanning quick commerce, social media, e-commerce, food delivery, and health-tech — building depth in user research, RICE prioritization, PRDs, and GTM strategy.",
   },
   {
     category: "Professional",
@@ -402,7 +403,7 @@ export const achievements: Achievement[] = [
   {
     category: "Academic",
     year: "2025",
-    title: "Computer Science Graduate",
+    title: "BCA Graduate",
     institution: "RNS Institute of Technology",
     description:
       "Completed degree with CGPA 7.64/10 building technical foundations directly applicable to PM-engineering collaboration.",
@@ -438,10 +439,10 @@ export const achievementStats = [
 
 export const navLinks = [
   { label: "About", href: "#about" },
-  { label: "Experience", href: "#experience" },
-  { label: "Education", href: "#education" },
   { label: "Projects", href: "#projects" },
+  { label: "Experience", href: "#experience" },
   { label: "Skills", href: "#skills" },
+  { label: "Education", href: "#education" },
   { label: "Certifications", href: "#certifications" },
   { label: "Achievements", href: "#achievements" },
   { label: "Contact", href: "#contact" },
